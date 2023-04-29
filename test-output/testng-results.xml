@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-29T06:35:28 IST" name="Suite" finished-at="2023-04-29T06:35:33 IST" duration-ms="4690">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationTest.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@428640fa]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationTest.test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@428640fa]" name="test_Account_Registration" class="testCases.TC_001_AccountRegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-04-29T06:35:28 IST" name="OpenCartTest" finished-at="2023-04-29T06:35:33 IST" duration-ms="4690">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@428640fa]" started-at="2023-04-29T06:35:29 IST" name="setup" finished-at="2023-04-29T06:35:32 IST" duration-ms="3083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@428640fa]" started-at="2023-04-29T06:35:32 IST" name="test_Account_Registration" finished-at="2023-04-29T06:35:33 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Account_Registration -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+    </test> <!-- OpenCartTest -->
+  </suite> <!-- Suite -->
+</testng-results>
